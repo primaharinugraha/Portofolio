@@ -3,7 +3,7 @@
     "title": "Smart Money",
     "imageSrc": "projects/smartmonnneyss.png",
     "description": "SmartMoney adalah website pengelolaan uang yang saya buat menggunakan Laravel 10, Bootstrap,Jquery , library Javascrip yaitu Aos menggunakan database Mysql, untuk fiturnya sendiri Terdapat, E-Learning,Proyek,Kelola Uang dan Admin Dashboard.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["Laravel", "Bottsrap", "Sql"],
     "demo": "https://github.com/primaharinugraha/Projek-Akhir-MSIB-6.git",
     "source": "https://www.github.com"
   },
@@ -11,15 +11,31 @@
     "title": "Medsos P",
     "imageSrc": "projects/mini.png",
     "description": " P adalah website yang menyerupai wesbite dari medos X. yang saya buat menggunakan Laravel 10, Bootstrap,Jquery dan menggunakan database Mysql yaitu Aos, untuk fiturnya sendiri Terdapat,Register,login, Posting, like, Komen, bookmarks, Notifikasi, edit profile, Follow dan unfollow .",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": ["Laravel", "Bootsrap", "Sql"],
     "demo": "https://github.com/primaharinugraha/Mini_Project.git",
     "source": "https://www.github.com"
   },
   {
-    "title": "Muxxx Showrrom",
+    "title": "Vegesale",
+    "imageSrc": "projects/vegesale.jpeg",
+    "description": "Vegesale adalah website Penjualan Sayur dan Keperluan Memasak lainnya. di buat Menggunakan React js dan exxpress js, Saya sebagi Frontend di projek ini.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://github.com/primaharinugraha/MuxxxShowroomWithPhpMysql.git",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Pnews",
+    "imageSrc": "projects/pnews.png",
+    "description": "Pnews adalah website Portal Berita Yang di buat menggunakan Laravel 12 dan Filament.",
+    "skills": ["Laravel", "Filament", "Php"],
+    "demo": "https://github.com/primaharinugraha/MuxxxShowroomWithPhpMysql.git",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Muxx Showroom",
     "imageSrc": "projects/showroom.png",
     "description": "Muxxx Showroom adalah website catalog showroom mobil, yang menggunakan Php, bootsrap,Jquery dan Mysql sebagai databasenya,Untuk fiturnya terdapat crud produk mobil dari admin dashboard dan di tampilkan ke halaman user.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["Php", "Bootsrap", "Sql"],
     "demo": "https://github.com/primaharinugraha/MuxxxShowroomWithPhpMysql.git",
     "source": "https://www.github.com"
   }
