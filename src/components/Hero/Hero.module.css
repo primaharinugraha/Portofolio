@@ -134,14 +134,14 @@
 }
 
 .heroImg {
-  width: 35%;
+  width: 50%;
   z-index: 1;
 
   animation-name: floating;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  margin-top: -60px;
+  margin-top: -50px;
 }
 
 @keyframes floating {
@@ -187,7 +187,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
-    margin-top: ;
+    
   }
 
   .content {
