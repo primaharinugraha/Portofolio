@@ -17,9 +17,8 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          HI, SAYA{" "}
           <TextType
-            text={["PRIMA HARI NUGRAHA", "WEB DEVELOPER", "FRESH GRADUATE"]}
+            text={["Halo, Saya Prima Hari Nugraha"]}
             typingSpeed={75}
             pauseDuration={1500}
             showCursor={true}
