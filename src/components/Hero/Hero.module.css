@@ -30,7 +30,7 @@
 }
 
 .title {
-  font-size: 55px;
+  /* font-size: 55px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -42,7 +42,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   
-  animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
+  animation: typing 4s steps(40, end), blink 0.75s step-end infinite; */
 }
 
 .description {
@@ -61,6 +61,7 @@
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 } */
+ 
 
 
 
@@ -133,6 +134,9 @@
   border-radius: 10px;
 }
 
+
+
+
 .heroImg {
   width: 50%;
   z-index: 1;
@@ -184,6 +188,38 @@
   z-index: 0;
 }
 
+
+
+.shiny-text {
+  color: #b5b5b5a4; /* Warna dasar */
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
+
+.shiny-text.disabled {
+  animation: none;
+}
+
+
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -195,10 +231,11 @@
     margin-top: 30px;
   }
   .title{
-    font-size: 55px;
+    font-size: 20px;
   }
+  
 
   .description {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
