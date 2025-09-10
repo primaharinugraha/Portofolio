@@ -2,6 +2,9 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 import TextType from "../TextType/TextType";
+import Lanyard from "../Lanyard";
+
+
 
 // ShinyText component
 const ShinyText = ({ text, disabled = false, className = '' }) => {
@@ -40,11 +43,8 @@ export const Hero = () => {
         </a>
       </div>
 
-      <img
-        src={getImageUrl("hero/almet.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
-      />
+     
+      <Lanyard position={[0, 0, 14]} gravity={[0, -40, 0]} className={styles.heroImg} />
 
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />

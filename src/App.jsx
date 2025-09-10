@@ -15,14 +15,14 @@ function App() {
     Aos.init({duration:500}); // Inisialisasi tanpa konfigurasi tambahan
   }, []);
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div> 
+    <div className={`${styles.App} bg-red-500 text-white`}>
+  <Navbar />
+  <Hero />
+  <About />
+  <Experience />
+  <Projects />
+  <Contact />
+</div>
   );
 }
 
