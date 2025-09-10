@@ -44,7 +44,7 @@ export const Hero = () => {
       </div>
 
      
-      <Lanyard position={[0, 0, 14]} gravity={[0, -40, 0]} className={styles.heroImg} />
+      <Lanyard position={[0, 0, 14]} gravity={[0, -50, 0]} className={styles.heroLanyard} />
 
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
