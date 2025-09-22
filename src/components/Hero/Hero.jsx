@@ -64,6 +64,8 @@ export const Hero = () => {
           background-clip: text;
           display: inline-block;
           animation: shine 2s linear infinite;
+           font-size: 30px;
+            margin-bottom: 52px;
         }
 
         @keyframes shine {

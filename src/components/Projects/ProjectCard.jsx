@@ -24,7 +24,7 @@ export const ProjectCard = ({
       <p className={styles.description}>{description}</p>
       
       <div className={styles.links}>
-        <a href={demo} className={styles.link} onClick={handleDemoClick}>
+        <a href={demo} className={styles.demolink} onClick={handleDemoClick}>
           Demo
         </a>
       </div>

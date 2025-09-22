@@ -20,7 +20,7 @@
     "imageSrc": "projects/vegesale.jpeg",
     "description": "Vegesale adalah website Penjualan Sayur dan Keperluan Memasak lainnya. di buat Menggunakan React js dan exxpress js, Saya sebagi Frontend di projek ini.",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://github.com/primaharinugraha/MuxxxShowroomWithPhpMysql.git",
+    "demo": "https://github.com/alfathalifdewa/vegesale-react-express.git",
     "source": "https://www.github.com"
   },
   {
@@ -28,7 +28,7 @@
     "imageSrc": "projects/pnews.png",
     "description": "Pnews adalah website Portal Berita Yang di buat menggunakan Laravel 12 dan Filament.",
     "skills": ["Laravel", "Filament", "Php"],
-    "demo": "https://github.com/primaharinugraha/MuxxxShowroomWithPhpMysql.git",
+    "demo": "https://github.com/primaharinugraha/Pnews.git",
     "source": "https://www.github.com"
   },
   {

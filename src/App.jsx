@@ -8,6 +8,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import CVSection from "./components/Resume/Resume";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   <About />
   <Experience />
   <Projects />
+  <CVSection />
   <Contact />
 </div>
   );

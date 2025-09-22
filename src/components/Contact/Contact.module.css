@@ -6,23 +6,23 @@
   background-color: #19376d;;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100vw;
-  padding: 58px 10%;
+  padding: 55px 10%;
   gap: 10px;
   
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 4px;
 }
 
 .text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .links {
@@ -36,7 +36,7 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
 }
 
 .link a {
@@ -44,13 +44,20 @@
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 25px;
+  }
+
+  .text h2 {
+    letter-spacing: 2px;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    /* margin-left: -85px; */
   }
 
   .text {
