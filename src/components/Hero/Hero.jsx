@@ -4,13 +4,14 @@ import { getImageUrl } from "../../utils";
 import TextType from "../TextType/TextType";
 import Lanyard from "../Lanyard";
 
-
-
 // ShinyText component
 const ShinyText = ({ text, disabled = false, className = '' }) => {
   return (
-    <div className={`shiny-text ${disabled ? 'disabled' : ''} ${className}`}>
-      {text}
+    // Bungkus dengan div justify untuk kontrol spasi
+    <div style={{ textAlign: "justify", textJustify: "inter-word" }}>
+      <span className={`shiny-text ${disabled ? 'disabled' : ''} ${className}`}>
+        {text}
+      </span>
     </div>
   );
 };
@@ -31,7 +32,9 @@ export const Hero = () => {
 
         {/* Description menggunakan ShinyText */}
         <ShinyText
-          text="Fresh Graduate Teknik Informatika dengan fokus pada pengembangan website. Saya senang mempelajari teknologi baru, membangun aplikasi web yang bermanfaat, dan siap berkontribusi dalam tim untuk menciptakan solusi digital yang inovatif."
+          text="Fresh Graduate Teknik Informatika dengan fokus pada pengembangan website. 
+          Saya senang mempelajari teknologi baru, membangun aplikasi web yang bermanfaat, 
+          dan siap berkontribusi dalam tim untuk menciptakan solusi digital yang inovatif."
           className={styles.description + " mt-4"}
         />
 
@@ -43,29 +46,28 @@ export const Hero = () => {
         </a>
       </div>
 
-     
       <Lanyard position={[0, 0, 14]} gravity={[0, -50, 0]} className={styles.heroLanyard} />
-
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
 
       {/* ShinyText CSS langsung di Hero.jsx */}
       <style jsx>{`
         .shiny-text {
-          color: #b5b5b5a4; /* Warna dasar */
+          display: inline; /* biar justify di wrapper bekerja */
+          color: #b5b5b5a4;
           background: linear-gradient(
             120deg,
-            rgba(255, 255, 255, 0) 40%,
-            rgba(255, 255, 255, 0.8) 50%,
-            rgba(255, 255, 255, 0) 60%
+            rgba(255,255,255,0) 40%,
+            rgba(255,255,255,0.8) 50%,
+            rgba(255,255,255,0) 60%
           );
           background-size: 200% 100%;
           -webkit-background-clip: text;
           background-clip: text;
-          display: inline-block;
           animation: shine 2s linear infinite;
-           font-size: 30px;
-            margin-bottom: 52px;
+          font-size: 25px;
+          line-height: 1.4;
+          letter-spacing: 0.5px;
         }
 
         @keyframes shine {
@@ -79,6 +81,14 @@ export const Hero = () => {
 
         .shiny-text.disabled {
           animation: none;
+        }
+
+        /* Responsif mobile */
+        @media screen and (max-width: 480px) {
+          .shiny-text {
+            font-size: 24px; 
+            line-height: 1.5;
+          }
         }
       `}</style>
     </section>
