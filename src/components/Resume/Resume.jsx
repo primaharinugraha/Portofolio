@@ -7,7 +7,7 @@ const Resume = () => {
     <section className={styles.container} id="Resume">
       {/* Left Column */}
       <div className={styles.content}>
-        <h2 className={styles.title}>Resume</h2>
+        <h2 className={styles.title}> Resume (CV)</h2>
 
         {/* Deskripsi dengan shiny-text */}
         <p className="shiny-text">
