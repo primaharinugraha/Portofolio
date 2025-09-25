@@ -3,7 +3,7 @@ import styles from "./Resume.module.css";
 
 const Resume = () => {
   return (
-    <section className={styles.container} id="Resume">
+    <section className={styles.container} id="resume">
       {/* Left Column */}
       <div className={styles.content}>
         <h2 className={styles.title}>Resume (CV)</h2>
