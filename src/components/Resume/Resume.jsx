@@ -21,7 +21,7 @@ const Resume = () => {
         {/* Tombol Download tetap sama */}
         <a
           href="/CV_Prima Hari Nugraha.pdf"
-          download="PrimaHari-CV.pdf"
+          download="CV_Prima Hari Nugraha.pdf"
           className={styles.downloadBtn}
         >
           Download
