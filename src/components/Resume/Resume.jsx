@@ -32,7 +32,7 @@ const Resume = () => {
       <div className={styles.right}>
         <div className={styles.card}>
           <img
-            src="/PrimaHari-CV-1.png"
+            src="/CV_Prima Hari Nugraha.png"
             alt="Preview CV"
           />
         </div>
