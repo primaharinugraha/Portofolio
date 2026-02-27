@@ -20,8 +20,8 @@ const Resume = () => {
 
         {/* Tombol Download tetap sama */}
         <a
-          href="/CV_Prima Hari Nugraha.pdf"
-          download="CV_Prima Hari Nugraha.pdf"
+          href="/CV-Prima Hari Nugraha.pdf"
+          download="CV-Prima Hari Nugraha.pdf"
           className={styles.downloadBtn}
         >
           Download
@@ -32,7 +32,7 @@ const Resume = () => {
       <div className={styles.right}>
         <div className={styles.card}>
           <img
-            src="/CV_Prima Hari Nugraha.png"
+            src="/foto cv.png"
             alt="Preview CV"
           />
         </div>
